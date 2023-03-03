@@ -1,0 +1,35 @@
+"""
+Observe o trecho de código abaixo:
+
+int INDICE = 13, SOMA = 0, K = 0;
+
+enquanto K < INDICE faça
+{
+K = K + 1;
+SOMA = SOMA + K;
+}
+
+imprimir(SOMA);
+
+Ao final do processamento, qual será o valor da variável SOMA?
+"""
+
+O trecho de código apresentado é um laço de repetição que adiciona o valor de K à variável SOMA a cada iteração, começando com K=1 e terminando quando K=INDICE. Portanto, a variável SOMA conterá a soma de todos os números inteiros de 1 a 13.
+
+Podemos calcular essa soma usando a fórmula da soma dos termos de uma progressão aritmética:
+
+SOMA = (n/2) x (a1 + an)
+
+onde n é o número de termos na soma, a1 é o primeiro termo e an é o último termo. No caso deste código, temos:
+
+n = INDICE = 13
+a1 = 1
+an = 13
+
+Substituindo na fórmula, obtemos:
+
+SOMA = (13/2) x (1 + 13)
+SOMA = 7 x 14
+SOMA = 98
+
+Portanto, ao final do processamento, o valor da variável SOMA será 98.
